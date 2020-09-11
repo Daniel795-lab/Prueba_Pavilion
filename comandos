@@ -29,5 +29,10 @@ git config --global user.name 'Jane Doe'
 git config --global user.email 'jane@example.com'
 
 git config --global --list
+
+2. Reset your local branch to match upstream:
+
+git checkout master
+git reset --hard upstream/master
 =======
 >>>>>>> 5fb4c644ed38137db11ddbd6dc90d2c9f8cf4bad
